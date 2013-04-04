@@ -1,0 +1,23 @@
+-----README FILE-----
+
+**********************************************
+* ------------------Lucas Pena-------------- *
+* -------------------CIS 191---------------- *
+* --Project 3: Git Ready (Visitor Counter)-- *
+**********************************************
+
+-----Description of Files-----
+count.txt: text file containing the number of visitors so far
+counter.py: python script, reads in count.txt and increments the count, then prints out the result and writes the new number back into the file
+
+morning.txt: text file containing the number of morning visitors so far
+afternoon.txt: text file containing the number of afternoon visitors so far
+evening.txt: text file containing the number of evening visitors so far
+
+morning.py: python script that reads in the value in morning.txt and outputs it, then potentially increments the number depending on the input argument, and writes the new number back in morning.txt
+afternoon.py: python script that reads in the value in afternoon.txt and outputs it, then potentially increments the number depending on the input argument, and writes the new number back in afternoon.txt
+evening.py: python script that reads in the value in evening.txt and outputs it, then potentially increments the number depending on the input argument, and writes the new number back in evening.txt
+
+index.php: main file that actually makes the website. This calls the python scripts above. It also prints out the date and time of the visit to the website.
+
+README: file containing a description of all other files (including itself!)
